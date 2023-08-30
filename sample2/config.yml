@@ -1,0 +1,22 @@
+recipe: default.v1
+language: zh
+pipeline:
+  - name: JiebaTokenizer
+  - name: LanguageModelFeaturizer
+    model_name: bert
+    model_weights: bert-base-chinese
+  - name: RegexFeaturizer
+  - name: DIETClassifier
+    epochs: 200
+    tensorboard_log_directory: ./log
+  - name: ResponseSelector
+  - name: EntitySynonymMapper
+policies:
+  - name: MemoizationPolicy
+    max_history: 5
+    epochs: 100
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+assistant_id: 20230705-095347-chilly-plasma
+

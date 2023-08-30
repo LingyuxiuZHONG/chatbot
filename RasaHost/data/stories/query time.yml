@@ -1,0 +1,4 @@
+- story: query time
+  steps:
+    - intent: query_time
+    - action: action_query_time

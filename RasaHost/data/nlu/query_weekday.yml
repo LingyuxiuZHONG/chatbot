@@ -1,0 +1,7 @@
+- intent: query_weekday
+  examples: |
+    - [今天](date)星期几
+    - [明天](date)星期几
+    - [昨天](date)星期几
+    - [今天](date)是星期几
+    - 星期几

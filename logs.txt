@@ -1,0 +1,1816 @@
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.3.2:5555
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [28/Aug/2023 20:33:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:40] "GET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:40] "GET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:40] "GET /static/libs/jquery/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:40] "GET /static/scripts/vue-components.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:40] "GET /static/libs/vue/vue.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:40] "GET /static/libs/modernizr-2.6.2.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:40] "GET /static/libs/codemirror/codemirror.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:40] "GET /static/libs/codemirror/codemirror.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:40] "GET /static/content/site.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:43] "GET /nlu HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:43] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:43] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:43] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:43] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:43] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:43] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:43] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:43] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:43] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:43] "GET /api/nlu?q= HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:45] "GET /stories HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:45] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:45] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:45] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:45] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:45] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:45] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:45] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:45] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:45] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:45] "GET /api/stories?q= HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:47] "GET /domain HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:47] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:47] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:47] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:47] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:47] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:47] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:47] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:47] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:47] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:51] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:33:51] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:51] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:51] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:51] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:51] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:51] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:51] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:51] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:33:51] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Could not find tracker for conversation ID 'default'.
+No event broker configured. Skipping streaming events.
+Starting a new session for conversation ID 'default'.
+Policy prediction ended with events '[]'.
+Action 'action_session_start' ended with events '[<rasa.shared.core.events.SessionStarted object at 0x7fd90f6a0f90>, ActionExecuted(action: action_listen, policy: None, confidence: None)]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7fd8f30e0950>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Building prefix dict from the default dictionary ...
+Loading model from cache /var/folders/kf/1rjb3s5j6wq3c5j8kz94dmjc0000gn/T/jieba.cache
+Loading model cost 0.898 seconds.
+Prefix dict has been built successfully.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '你好' with intent '{'name': 'greet', 'confidence': 0.99998939037323}' and entities '[]'
+Logged UserUtterance - tracker now has 4 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fd8ffb57350>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+There is a memorised next action 'utter_greet'
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'utter_greet' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using MemoizationPolicy.
+Predicted next action 'utter_greet' with confidence 1.00.
+Requesting NLG for utter_greet from /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml.
+Encountered an exception while running action 'utter_greet'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/processor.py", line 918, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 308, in run
+    message = await nlg.generate(self.utter_action, tracker, output_channel.name())
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/nlg/callback.py", line 75, in generate
+    method="post", json=body, timeout=DEFAULT_REQUEST_TIMEOUT
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 172, in request
+    **kwargs,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 529, in _request
+    traces=traces,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 305, in __init__
+    self.update_host(url)
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 364, in update_host
+    raise InvalidURL(url)
+aiohttp.client_exceptions.InvalidURL: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fd91ec68310>]'.
+Action 'utter_greet' ended with events '[]'.
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fd8ffb57350>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+There is a memorised next action 'action_listen'
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using MemoizationPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 20:33:57] "POST /conversations/default/respond HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:34:02] "GET /static/libs/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:34:02] "GET /static/libs/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Recreating tracker for id 'default'
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7fd90f64d090>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '现在几点啦' with intent '{'name': 'query_time', 'confidence': 0.9953553676605225}' and entities '[]'
+Logged UserUtterance - tracker now has 8 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fd91e954190>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: query_time | previous action name: action_listen
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_query_time' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_query_time' with confidence 0.96.
+Encountered an exception while running action 'action_query_time'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/processor.py", line 918, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 749, in run
+    f"Failed to execute custom action '{self.name()}' "
+rasa.shared.exceptions.RasaException: Failed to execute custom action 'action_query_time' because no endpoint is configured to run this custom action. Please take a look at the docs and set an endpoint configuration via the --endpoints flag. https://rasa.com/docs/rasa/custom-actions
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fd913f7da90>]'.
+Action 'action_query_time' ended with events '[]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fd91e954190>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: query_time | previous action name: action_listen
+[state 4] user intent: query_time | previous action name: action_query_time
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 20:34:11] "POST /conversations/default/respond HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:34:15] "GET /logs/conversations HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:34:15] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:34:15] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:34:15] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:34:15] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:34:15] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:34:15] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:34:15] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:34:15] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:34:15] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:34:15] "GET /api/logs/conversations?q=&p=1 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:34:16] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:34:16] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:38:24] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:38:24] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:38:24] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:38:24] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:38:24] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:38:24] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:38:24] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:38:24] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:38:24] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:38:24] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:38:25] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:38:25] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Recreating tracker for id 'default'
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7fd9171a6810>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '你好' with intent '{'name': 'greet', 'confidence': 0.99998939037323}' and entities '[]'
+Logged UserUtterance - tracker now has 12 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fd8ffb0cc90>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: greet | previous action name: action_listen
+[state 1] user intent: greet | previous action name: utter_greet
+[state 2] user intent: query_time | previous action name: action_listen
+[state 3] user intent: query_time | previous action name: action_query_time
+[state 4] user intent: greet | previous action name: action_listen
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'utter_greet' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using TEDPolicy.
+Predicted next action 'utter_greet' with confidence 0.97.
+Requesting NLG for utter_greet from /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml.
+Encountered an exception while running action 'utter_greet'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/processor.py", line 918, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 308, in run
+    message = await nlg.generate(self.utter_action, tracker, output_channel.name())
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/nlg/callback.py", line 75, in generate
+    method="post", json=body, timeout=DEFAULT_REQUEST_TIMEOUT
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 172, in request
+    **kwargs,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 529, in _request
+    traces=traces,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 305, in __init__
+    self.update_host(url)
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 364, in update_host
+    raise InvalidURL(url)
+aiohttp.client_exceptions.InvalidURL: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fd90f64df50>]'.
+Action 'utter_greet' ended with events '[]'.
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fd8ffb0cc90>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: greet | previous action name: utter_greet
+[state 1] user intent: query_time | previous action name: action_listen
+[state 2] user intent: query_time | previous action name: action_query_time
+[state 3] user intent: greet | previous action name: action_listen
+[state 4] user intent: greet | previous action name: utter_greet
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 20:38:29] "POST /conversations/default/respond HTTP/1.1" 200 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Recreating tracker for id 'default'
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7fd91e926fd0>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '你好' with intent '{'name': 'greet', 'confidence': 0.99998939037323}' and entities '[]'
+Logged UserUtterance - tracker now has 16 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fd91e926c90>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: query_time | previous action name: action_listen
+[state 1] user intent: query_time | previous action name: action_query_time
+[state 2] user intent: greet | previous action name: action_listen
+[state 3] user intent: greet | previous action name: utter_greet
+[state 4] user intent: greet | previous action name: action_listen
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'utter_greet' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using TEDPolicy.
+Predicted next action 'utter_greet' with confidence 0.97.
+Requesting NLG for utter_greet from /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml.
+Encountered an exception while running action 'utter_greet'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/processor.py", line 918, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 308, in run
+    message = await nlg.generate(self.utter_action, tracker, output_channel.name())
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/nlg/callback.py", line 75, in generate
+    method="post", json=body, timeout=DEFAULT_REQUEST_TIMEOUT
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 172, in request
+    **kwargs,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 529, in _request
+    traces=traces,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 305, in __init__
+    self.update_host(url)
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 364, in update_host
+    raise InvalidURL(url)
+aiohttp.client_exceptions.InvalidURL: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fd90f64d290>]'.
+Action 'utter_greet' ended with events '[]'.
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fd91e926c90>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: query_time | previous action name: action_query_time
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: greet | previous action name: action_listen
+[state 4] user intent: greet | previous action name: utter_greet
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 20:39:19] "POST /conversations/default/respond HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.3.2:5555
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [28/Aug/2023 20:48:07] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:48:07] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:48:07] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:48:07] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:48:07] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:48:07] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:48:07] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:48:07] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:48:07] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:48:07] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:48:08] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:48:08] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Could not find tracker for conversation ID 'default'.
+No event broker configured. Skipping streaming events.
+Starting a new session for conversation ID 'default'.
+Policy prediction ended with events '[]'.
+Action 'action_session_start' ended with events '[<rasa.shared.core.events.SessionStarted object at 0x7ffe8bd7cd50>, ActionExecuted(action: action_listen, policy: None, confidence: None)]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7ffe96fb6650>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Building prefix dict from the default dictionary ...
+Loading model from cache /var/folders/kf/1rjb3s5j6wq3c5j8kz94dmjc0000gn/T/jieba.cache
+Loading model cost 0.907 seconds.
+Prefix dict has been built successfully.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '你好' with intent '{'name': 'greet', 'confidence': 0.99998939037323}' and entities '[]'
+Logged UserUtterance - tracker now has 4 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ffe8a3b1310>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+There is a memorised next action 'utter_greet'
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'utter_greet' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using MemoizationPolicy.
+Predicted next action 'utter_greet' with confidence 1.00.
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7ffeadef5210>]'.
+Action 'utter_greet' ended with events '[BotUttered('你好！', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"utter_action": "utter_greet"}, 1693226894.964917)]'.
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ffe8a3b1310>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+There is a memorised next action 'action_listen'
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using MemoizationPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 20:48:15] "POST /conversations/default/respond HTTP/1.1" 200 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Recreating tracker for id 'default'
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7ffe94025a90>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '现在几点啦' with intent '{'name': 'query_time', 'confidence': 0.9953553676605225}' and entities '[]'
+Logged UserUtterance - tracker now has 9 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ffe94624f90>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: query_time | previous action name: action_listen
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_query_time' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_query_time' with confidence 0.96.
+Calling action endpoint to run action 'action_query_time'.
+Encountered an exception while running action 'action_query_time'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 771, in run
+    compress=should_compress,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 172, in request
+    **kwargs,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 529, in _request
+    traces=traces,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 305, in __init__
+    self.update_host(url)
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 364, in update_host
+    raise InvalidURL(url)
+aiohttp.client_exceptions.InvalidURL: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/processor.py", line 918, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 821, in run
+    "Error: {}".format(self.name(), status, e)
+rasa.shared.exceptions.RasaException: Failed to run custom action 'action_query_time'. Action server responded with a non 200 status code of None. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7ffe9d923dd0>]'.
+Action 'action_query_time' ended with events '[]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ffe94624f90>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: query_time | previous action name: action_listen
+[state 4] user intent: query_time | previous action name: action_query_time
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 20:48:23] "POST /conversations/default/respond HTTP/1.1" 200 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Recreating tracker for id 'default'
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7ffea757df10>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '现在几点啦？' with intent '{'name': 'query_date', 'confidence': 0.9993996620178223}' and entities '[]'
+Logged UserUtterance - tracker now has 13 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ffe94624810>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: greet | previous action name: action_listen
+[state 1] user intent: greet | previous action name: utter_greet
+[state 2] user intent: query_time | previous action name: action_listen
+[state 3] user intent: query_time | previous action name: action_query_time
+[state 4] user intent: query_date | previous action name: action_listen
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_query_date' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_query_date' with confidence 0.98.
+Calling action endpoint to run action 'action_query_date'.
+Encountered an exception while running action 'action_query_date'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 771, in run
+    compress=should_compress,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 172, in request
+    **kwargs,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 529, in _request
+    traces=traces,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 305, in __init__
+    self.update_host(url)
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 364, in update_host
+    raise InvalidURL(url)
+aiohttp.client_exceptions.InvalidURL: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/processor.py", line 918, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 821, in run
+    "Error: {}".format(self.name(), status, e)
+rasa.shared.exceptions.RasaException: Failed to run custom action 'action_query_date'. Action server responded with a non 200 status code of None. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7ffea757da50>]'.
+Action 'action_query_date' ended with events '[]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ffe94624810>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: greet | previous action name: utter_greet
+[state 1] user intent: query_time | previous action name: action_listen
+[state 2] user intent: query_time | previous action name: action_query_time
+[state 3] user intent: query_date | previous action name: action_listen
+[state 4] user intent: query_date | previous action name: action_query_date
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 20:50:56] "POST /conversations/default/respond HTTP/1.1" 200 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Recreating tracker for id 'default'
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7ffeadef5d10>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '再见' with intent '{'name': 'goodbye', 'confidence': 0.9998776912689209}' and entities '[]'
+Logged UserUtterance - tracker now has 17 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ffe9400f550>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: query_time | previous action name: action_listen
+[state 1] user intent: query_time | previous action name: action_query_time
+[state 2] user intent: query_date | previous action name: action_listen
+[state 3] user intent: query_date | previous action name: action_query_date
+[state 4] user intent: goodbye | previous action name: action_listen
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'utter_goodbye' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using TEDPolicy.
+Predicted next action 'utter_goodbye' with confidence 0.97.
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7ffea757d8d0>]'.
+Action 'utter_goodbye' ended with events '[BotUttered('再见！', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"utter_action": "utter_goodbye"}, 1693227080.688759)]'.
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ffe9400f550>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: query_time | previous action name: action_query_time
+[state 1] user intent: query_date | previous action name: action_listen
+[state 2] user intent: query_date | previous action name: action_query_date
+[state 3] user intent: goodbye | previous action name: action_listen
+[state 4] user intent: goodbye | previous action name: utter_goodbye
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 20:51:20] "POST /conversations/default/respond HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:58:08] "GET /logs/conversations HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:58:08] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:08] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:08] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:08] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:08] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:08] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:08] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:08] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:08] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:08] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:08] "GET /api/logs/conversations?q=&p=1 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:58:08] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:12] "GET /logs/rasa?q=request:3cb88b23-3a4d-4b71-ad06-4666b8baf9e0 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:58:12] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:12] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:12] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:12] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:12] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:12] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:12] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:12] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:12] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:12] "GET /api/logs/rasa?q=request%3A3cb88b23-3a4d-4b71-ad06-4666b8baf9e0&p=1 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:58:13] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:58:13] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:09] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:59:09] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:09] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:09] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:09] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:09] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:09] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:09] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:09] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:09] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Recreating tracker for id 'default'
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7ffe904e3450>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '现在几点啦？' with intent '{'name': 'query_date', 'confidence': 0.9993996620178223}' and entities '[]'
+Logged UserUtterance - tracker now has 22 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ffe790af890>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: query_date | previous action name: action_listen
+[state 1] user intent: query_date | previous action name: action_query_date
+[state 2] user intent: goodbye | previous action name: action_listen
+[state 3] user intent: goodbye | previous action name: utter_goodbye
+[state 4] user intent: query_date | previous action name: action_listen
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_query_date' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_query_date' with confidence 0.97.
+Calling action endpoint to run action 'action_query_date'.
+Encountered an exception while running action 'action_query_date'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 771, in run
+    compress=should_compress,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 172, in request
+    **kwargs,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 529, in _request
+    traces=traces,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 305, in __init__
+    self.update_host(url)
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 364, in update_host
+    raise InvalidURL(url)
+aiohttp.client_exceptions.InvalidURL: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/processor.py", line 918, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 821, in run
+    "Error: {}".format(self.name(), status, e)
+rasa.shared.exceptions.RasaException: Failed to run custom action 'action_query_date'. Action server responded with a non 200 status code of None. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7ffea757d050>]'.
+Action 'action_query_date' ended with events '[]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ffe790af890>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: query_date | previous action name: action_query_date
+[state 1] user intent: goodbye | previous action name: action_listen
+[state 2] user intent: goodbye | previous action name: utter_goodbye
+[state 3] user intent: query_date | previous action name: action_listen
+[state 4] user intent: query_date | previous action name: action_query_date
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 20:59:15] "POST /conversations/default/respond HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:59:17] "GET /logs/conversations HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:59:17] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:17] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:17] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:17] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:17] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:17] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:17] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:17] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:17] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:17] "GET /api/logs/conversations?q=&p=1 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:59:18] "GET /logs/rasa?q=request:f0acc903-38c2-4c06-999d-cc96724b1630 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 20:59:18] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:18] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:18] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:18] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:18] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:18] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:18] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:18] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:18] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 20:59:18] "GET /api/logs/rasa?q=request%3Af0acc903-38c2-4c06-999d-cc96724b1630&p=1 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:04:07] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:04:07] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:04:07] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:04:07] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:04:07] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:04:07] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:04:07] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:04:07] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:04:07] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:04:07] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Recreating tracker for id 'default'
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7ffe7b1d1590>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '现在几点啦' with intent '{'name': 'query_time', 'confidence': 0.9953553676605225}' and entities '[]'
+Logged UserUtterance - tracker now has 26 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ffe9d923dd0>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: goodbye | previous action name: action_listen
+[state 1] user intent: goodbye | previous action name: utter_goodbye
+[state 2] user intent: query_date | previous action name: action_listen
+[state 3] user intent: query_date | previous action name: action_query_date
+[state 4] user intent: query_time | previous action name: action_listen
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_query_time' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_query_time' with confidence 0.96.
+Calling action endpoint to run action 'action_query_time'.
+Encountered an exception while running action 'action_query_time'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 771, in run
+    compress=should_compress,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 172, in request
+    **kwargs,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 529, in _request
+    traces=traces,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 305, in __init__
+    self.update_host(url)
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 364, in update_host
+    raise InvalidURL(url)
+aiohttp.client_exceptions.InvalidURL: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/processor.py", line 918, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 821, in run
+    "Error: {}".format(self.name(), status, e)
+rasa.shared.exceptions.RasaException: Failed to run custom action 'action_query_time'. Action server responded with a non 200 status code of None. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7ffe6f134550>]'.
+Action 'action_query_time' ended with events '[]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ffe9d923dd0>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: goodbye | previous action name: utter_goodbye
+[state 1] user intent: query_date | previous action name: action_listen
+[state 2] user intent: query_date | previous action name: action_query_date
+[state 3] user intent: query_time | previous action name: action_listen
+[state 4] user intent: query_time | previous action name: action_query_time
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 21:04:12] "POST /conversations/default/respond HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:08:14] "GET /logs/rasa?q=request:f0acc903-38c2-4c06-999d-cc96724b1630 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:08:14] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:08:14] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:08:14] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:08:14] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:08:14] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:08:14] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:08:14] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:08:14] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:08:14] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:08:15] "GET /api/logs/rasa?q=request%3Af0acc903-38c2-4c06-999d-cc96724b1630&p=1 HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.3.2:5555
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [28/Aug/2023 21:24:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:31] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:33] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:24:33] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:33] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:33] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:33] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:33] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:33] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:33] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:33] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:33] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Could not find tracker for conversation ID 'default'.
+No event broker configured. Skipping streaming events.
+Starting a new session for conversation ID 'default'.
+Policy prediction ended with events '[]'.
+Action 'action_session_start' ended with events '[<rasa.shared.core.events.SessionStarted object at 0x7fc32d0c3110>, ActionExecuted(action: action_listen, policy: None, confidence: None)]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7fc334199250>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Building prefix dict from the default dictionary ...
+Loading model from cache /var/folders/kf/1rjb3s5j6wq3c5j8kz94dmjc0000gn/T/jieba.cache
+Loading model cost 1.066 seconds.
+Prefix dict has been built successfully.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '现在几点啦' with intent '{'name': 'query_time', 'confidence': 0.9953553676605225}' and entities '[]'
+Logged UserUtterance - tracker now has 4 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fc32cdd2d10>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: query_time | previous action name: action_listen
+There is a memorised next action 'action_query_time'
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_query_time' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using MemoizationPolicy.
+Predicted next action 'action_query_time' with confidence 1.00.
+Calling action endpoint to run action 'action_query_time'.
+Encountered an exception while running action 'action_query_time'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 771, in run
+    compress=should_compress,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 172, in request
+    **kwargs,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 529, in _request
+    traces=traces,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 305, in __init__
+    self.update_host(url)
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 364, in update_host
+    raise InvalidURL(url)
+aiohttp.client_exceptions.InvalidURL: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/processor.py", line 918, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 821, in run
+    "Error: {}".format(self.name(), status, e)
+rasa.shared.exceptions.RasaException: Failed to run custom action 'action_query_time'. Action server responded with a non 200 status code of None. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fc331dbffd0>]'.
+Action 'action_query_time' ended with events '[]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fc32cdd2d10>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: query_time | previous action name: action_listen
+[state 2] user intent: query_time | previous action name: action_query_time
+There is a memorised next action 'action_listen'
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using MemoizationPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 21:24:42] "POST /conversations/default/respond HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:24:49] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:49] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:51] "GET /logs/conversations HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:24:51] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:51] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:51] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:51] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:51] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:51] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:51] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:51] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:51] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:51] "GET /api/logs/conversations?q=&p=1 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:24:53] "GET /logs/rasa?q=request:1eb6a371-266b-4e52-b9fb-7c2b6858df9b HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:24:53] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:53] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:53] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:53] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:53] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:53] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:53] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:53] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:53] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:24:53] "GET /api/logs/rasa?q=request%3A1eb6a371-266b-4e52-b9fb-7c2b6858df9b&p=1 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:26:43] "GET /domain HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:26:43] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:43] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:43] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:43] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:43] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:43] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:43] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:43] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:43] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:44] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:26:44] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:44] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:44] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:44] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:44] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:44] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:44] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:44] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:26:44] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Recreating tracker for id 'default'
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7fc33f144590>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '现在几点啦？' with intent '{'name': 'query_date', 'confidence': 0.9993996620178223}' and entities '[]'
+Logged UserUtterance - tracker now has 8 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fc319f50ad0>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: query_time | previous action name: action_listen
+[state 2] user intent: query_time | previous action name: action_query_time
+[state 3] user intent: query_date | previous action name: action_listen
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_query_date' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_query_date' with confidence 0.97.
+Calling action endpoint to run action 'action_query_date'.
+Encountered an exception while running action 'action_query_date'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 771, in run
+    compress=should_compress,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 172, in request
+    **kwargs,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 529, in _request
+    traces=traces,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 305, in __init__
+    self.update_host(url)
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 364, in update_host
+    raise InvalidURL(url)
+aiohttp.client_exceptions.InvalidURL: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/processor.py", line 918, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 821, in run
+    "Error: {}".format(self.name(), status, e)
+rasa.shared.exceptions.RasaException: Failed to run custom action 'action_query_date'. Action server responded with a non 200 status code of None. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fc33e8167d0>]'.
+Action 'action_query_date' ended with events '[]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fc319f50ad0>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: query_time | previous action name: action_listen
+[state 2] user intent: query_time | previous action name: action_query_time
+[state 3] user intent: query_date | previous action name: action_listen
+[state 4] user intent: query_date | previous action name: action_query_date
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 21:26:49] "POST /conversations/default/respond HTTP/1.1" 200 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Recreating tracker for id 'default'
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7fc33e813810>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '现在几点啦？' with intent '{'name': 'query_date', 'confidence': 0.9993996620178223}' and entities '[]'
+Logged UserUtterance - tracker now has 12 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fc33db65f50>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: query_time | previous action name: action_listen
+[state 1] user intent: query_time | previous action name: action_query_time
+[state 2] user intent: query_date | previous action name: action_listen
+[state 3] user intent: query_date | previous action name: action_query_date
+[state 4] user intent: query_date | previous action name: action_listen
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_query_date' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_query_date' with confidence 0.98.
+Calling action endpoint to run action 'action_query_date'.
+Encountered an exception while running action 'action_query_date'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 771, in run
+    compress=should_compress,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 172, in request
+    **kwargs,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 529, in _request
+    traces=traces,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 305, in __init__
+    self.update_host(url)
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 364, in update_host
+    raise InvalidURL(url)
+aiohttp.client_exceptions.InvalidURL: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/processor.py", line 918, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 821, in run
+    "Error: {}".format(self.name(), status, e)
+rasa.shared.exceptions.RasaException: Failed to run custom action 'action_query_date'. Action server responded with a non 200 status code of None. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fc31038b310>]'.
+Action 'action_query_date' ended with events '[]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fc33db65f50>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 0] user intent: query_time | previous action name: action_query_time
+[state 1] user intent: query_date | previous action name: action_listen
+[state 2] user intent: query_date | previous action name: action_query_date
+[state 3] user intent: query_date | previous action name: action_listen
+[state 4] user intent: query_date | previous action name: action_query_date
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 21:30:53] "POST /conversations/default/respond HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:30:54] "GET /logs/conversations HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:30:54] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:54] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:54] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:54] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:54] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:54] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:54] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:55] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:55] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:55] "GET /api/logs/conversations?q=&p=1 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:30:56] "GET /logs/rasa?q=request:f35ed4a4-d9f0-45ce-8312-95c1fd242ae2 HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:30:56] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:56] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:56] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:56] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:56] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:56] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:56] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:56] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:56] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:30:56] "GET /api/logs/rasa?q=request%3Af35ed4a4-d9f0-45ce-8312-95c1fd242ae2&p=1 HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.3.2:5555
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [28/Aug/2023 21:35:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:35:14] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:14] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:14] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:14] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:14] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:14] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:14] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:14] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:14] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:18] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:35:18] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:18] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:18] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:18] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:18] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:18] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:18] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:18] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:18] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:19] "GET /domain HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:35:19] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:19] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:19] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:19] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:19] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:19] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:19] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:19] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:19] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:22] "GET /stories HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:35:22] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:22] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:22] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:22] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:22] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:22] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:22] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:22] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:22] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:22] "GET /api/stories?q= HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:35:23] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:35:23] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:23] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:23] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:23] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:23] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:23] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:23] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:23] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:35:23] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Could not find tracker for conversation ID 'default'.
+No event broker configured. Skipping streaming events.
+Starting a new session for conversation ID 'default'.
+Policy prediction ended with events '[]'.
+Action 'action_session_start' ended with events '[<rasa.shared.core.events.SessionStarted object at 0x7ff2be931d50>, ActionExecuted(action: action_listen, policy: None, confidence: None)]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7ff2bc870710>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Building prefix dict from the default dictionary ...
+Loading model from cache /var/folders/kf/1rjb3s5j6wq3c5j8kz94dmjc0000gn/T/jieba.cache
+Loading model cost 1.025 seconds.
+Prefix dict has been built successfully.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '你好' with intent '{'name': 'greet', 'confidence': 0.99998939037323}' and entities '[]'
+Logged UserUtterance - tracker now has 4 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ff2b9d58b90>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+There is a memorised next action 'utter_greet'
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'utter_greet' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using MemoizationPolicy.
+Predicted next action 'utter_greet' with confidence 1.00.
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7ff2d043d390>]'.
+Action 'utter_greet' ended with events '[BotUttered('你好！', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {"utter_action": "utter_greet"}, 1693229728.6950579)]'.
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ff2b9d58b90>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+There is a memorised next action 'action_listen'
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using MemoizationPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 21:35:28] "POST /conversations/default/respond HTTP/1.1" 200 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Recreating tracker for id 'default'
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7ff2d1e6e250>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '现在几点啦' with intent '{'name': 'query_time', 'confidence': 0.9953553676605225}' and entities '[]'
+Logged UserUtterance - tracker now has 9 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ff2be931690>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: query_time | previous action name: action_listen
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_query_time' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_query_time' with confidence 0.96.
+Calling action endpoint to run action 'action_query_time'.
+Encountered an exception while running action 'action_query_time'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 771, in run
+    compress=should_compress,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 172, in request
+    **kwargs,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 529, in _request
+    traces=traces,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 305, in __init__
+    self.update_host(url)
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 364, in update_host
+    raise InvalidURL(url)
+aiohttp.client_exceptions.InvalidURL: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/processor.py", line 918, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 821, in run
+    "Error: {}".format(self.name(), status, e)
+rasa.shared.exceptions.RasaException: Failed to run custom action 'action_query_time'. Action server responded with a non 200 status code of None. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7ff2d043d9d0>]'.
+Action 'action_query_time' ended with events '[]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ff2be931690>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: greet | previous action name: action_listen
+[state 2] user intent: greet | previous action name: utter_greet
+[state 3] user intent: query_time | previous action name: action_listen
+[state 4] user intent: query_time | previous action name: action_query_time
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 21:35:34] "POST /conversations/default/respond HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.3.2:5555
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [28/Aug/2023 21:46:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:46:24] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:24] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:24] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:25] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:25] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:25] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:25] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:25] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:25] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:31] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:46:32] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:32] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:32] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:32] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:32] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:32] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:32] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:32] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:46:32] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Could not find tracker for conversation ID 'default'.
+No event broker configured. Skipping streaming events.
+Starting a new session for conversation ID 'default'.
+Policy prediction ended with events '[]'.
+Action 'action_session_start' ended with events '[<rasa.shared.core.events.SessionStarted object at 0x7fb53466b850>, ActionExecuted(action: action_listen, policy: None, confidence: None)]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7fb53bf5c550>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Building prefix dict from the default dictionary ...
+Loading model from cache /var/folders/kf/1rjb3s5j6wq3c5j8kz94dmjc0000gn/T/jieba.cache
+Loading model cost 1.070 seconds.
+Prefix dict has been built successfully.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '现在几点啦' with intent '{'name': 'query_time', 'confidence': 0.9953553676605225}' and entities '[]'
+Logged UserUtterance - tracker now has 4 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fb53bf5ca90>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: query_time | previous action name: action_listen
+There is a memorised next action 'action_query_time'
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_query_time' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using MemoizationPolicy.
+Predicted next action 'action_query_time' with confidence 1.00.
+Calling action endpoint to run action 'action_query_time'.
+Encountered an exception while running action 'action_query_time'.Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 771, in run
+    compress=should_compress,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/utils/endpoints.py", line 172, in request
+    **kwargs,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client.py", line 529, in _request
+    traces=traces,
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 305, in __init__
+    self.update_host(url)
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 364, in update_host
+    raise InvalidURL(url)
+aiohttp.client_exceptions.InvalidURL: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/processor.py", line 918, in _run_action
+    output_channel, nlg, temporary_tracker, self.domain
+  File "/opt/anaconda3/envs/rasa_demo/lib/python3.7/site-packages/rasa/core/actions/action.py", line 821, in run
+    "Error: {}".format(self.name(), status, e)
+rasa.shared.exceptions.RasaException: Failed to run custom action 'action_query_time'. Action server responded with a non 200 status code of None. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: /Users/zhonglingyuxiu/Desktop/university/chatbot/chatbot/sample2/endpoints.yml
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7fb537e7e110>]'.
+Action 'action_query_time' ended with events '[]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7fb53bf5ca90>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: query_time | previous action name: action_listen
+[state 2] user intent: query_time | previous action name: action_query_time
+There is a memorised next action 'action_listen'
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using MemoizationPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 21:46:40] "POST /conversations/default/respond HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.3.2:5555
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [28/Aug/2023 21:52:15] "GET /chat HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2023 21:52:15] "[36mGET /static/scripts/vue-components.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:52:15] "[36mGET /static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:52:15] "[36mGET /static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:52:15] "[36mGET /static/libs/jquery/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:52:15] "[36mGET /static/libs/codemirror/codemirror.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:52:15] "[36mGET /static/libs/modernizr-2.6.2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:52:15] "[36mGET /static/content/site.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:52:15] "[36mGET /static/libs/vue/vue.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Aug/2023 21:52:15] "[36mGET /static/libs/codemirror/codemirror.js HTTP/1.1[0m" 304 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Could not find tracker for conversation ID 'default'.
+No event broker configured. Skipping streaming events.
+Starting a new session for conversation ID 'default'.
+Policy prediction ended with events '[]'.
+Action 'action_session_start' ended with events '[<rasa.shared.core.events.SessionStarted object at 0x7ff5a44ea4d0>, ActionExecuted(action: action_listen, policy: None, confidence: None)]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7ff5aae1d710>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Building prefix dict from the default dictionary ...
+Loading model from cache /var/folders/kf/1rjb3s5j6wq3c5j8kz94dmjc0000gn/T/jieba.cache
+Loading model cost 0.984 seconds.
+Prefix dict has been built successfully.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '现在几点啦' with intent '{'name': 'query_time', 'confidence': 0.9953553676605225}' and entities '[]'
+Logged UserUtterance - tracker now has 4 events.
+Validating extracted slots: 
+Default action 'action_extract_slots' was executed, resulting in 0 events: 
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ff59edfc2d0>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: query_time | previous action name: action_listen
+There is a memorised next action 'action_query_time'
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_query_time' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using MemoizationPolicy.
+Predicted next action 'action_query_time' with confidence 1.00.
+Calling action endpoint to run action 'action_query_time'.
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7ff5acadf310>]'.
+Action 'action_query_time' ended with events '[BotUttered('21:52:23', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {}, 1693230743.386941)]'.
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ff59edfc2d0>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: query_time | previous action name: action_listen
+[state 2] user intent: query_time | previous action name: action_query_time
+There is a memorised next action 'action_listen'
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using MemoizationPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 21:52:23] "POST /conversations/default/respond HTTP/1.1" 200 -
+Issuing ticket for conversation 'default'.
+Acquiring lock for conversation 'default'.
+Acquired lock for conversation 'default'.
+Recreating tracker for id 'default'
+Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x7ff58d2e3cd0>]}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+Node 'run_JiebaTokenizer0' running 'JiebaTokenizer.process'.
+Node 'run_LanguageModelFeaturizer1' running 'LanguageModelFeaturizer.process'.
+Node 'run_RegexFeaturizer2' running 'RegexFeaturizer.process'.
+Node 'run_DIETClassifier3' running 'DIETClassifier.process'.
+Node 'run_ResponseSelector4' running 'ResponseSelector.process'.
+There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+Adding following selector key to message property: default
+Node 'run_EntitySynonymMapper5' running 'EntitySynonymMapper.process'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+Received user message '今天星期几' with intent '{'name': 'query_weekday', 'confidence': 0.9999837875366211}' and entities '[{'entity': 'date', 'start': 0, 'end': 2, 'confidence_entity': 0.998702883720398, 'value': '今天', 'extractor': 'DIETClassifier', 'processors': ['EntitySynonymMapper']}]'
+Current slot values: 
+	date: None
+	session_started_metadata: None
+Logged UserUtterance - tracker now has 9 events.
+Validating extracted slots: date
+Default action 'action_extract_slots' was executed, resulting in 1 events: SlotSet(key: date, value: 今天)
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ff5a4ebd110>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: query_time | previous action name: action_listen
+[state 2] user intent: query_time | previous action name: action_query_time
+[state 3] user intent: query_weekday | user entities: ('date',) | previous action name: action_listen
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_query_weekday' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Made prediction using user intent.
+Added `DefinePrevUserUtteredFeaturization(False)` event.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_query_weekday' with confidence 0.98.
+Calling action endpoint to run action 'action_query_weekday'.
+Policy prediction ended with events '[<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x7ff5a2201290>]'.
+Action 'action_query_weekday' ended with events '[BotUttered('星期一', {"elements": null, "quick_replies": null, "buttons": null, "attachment": null, "image": null, "custom": null}, {}, 1693230760.9163132)]'.
+Current slot values: 
+	date: 今天
+	session_started_metadata: None
+Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x7ff5a4ebd110>}, targets: ['select_prediction'] and ExecutionContext(model_id='2f087a572d25489f84e71fc3c13e2b44', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+Node 'domain_provider' running 'DomainProvider.provide_inference'.
+Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+Current tracker state:
+[state 1] user intent: query_time | previous action name: action_listen
+[state 2] user intent: query_time | previous action name: action_query_time
+[state 3] user intent: query_weekday | user entities: ('date',) | previous action name: action_listen
+[state 4] user intent: query_weekday | user entities: ('date',) | previous action name: action_query_weekday
+There is no memorised next action
+Node 'run_TEDPolicy1' running 'TEDPolicy.predict_action_probabilities'.
+TED predicted 'action_listen' based on user intent.
+Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+Predicted next action using TEDPolicy.
+Predicted next action 'action_listen' with confidence 1.00.
+Policy prediction ended with events '[]'.
+Action 'action_listen' ended with events '[]'.
+No event broker configured. Skipping streaming events.
+Deleted lock for conversation 'default'.
+127.0.0.1 - - [28/Aug/2023 21:52:41] "POST /conversations/default/respond HTTP/1.1" 200 -

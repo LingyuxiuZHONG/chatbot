@@ -1,0 +1,30 @@
+version: "3.0"
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
+intents:
+  - greet
+  - goodbye
+  - query_time
+  - query_date
+  - query_weekday
+entities:
+  - date
+slots:
+  date:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: date
+responses:
+  utter_greet:
+    - text: 你好！
+  utter_goodbye:
+    - text: 再见！
+actions:
+  - utter_greet
+  - utter_goodbye
+  - action_query_time
+  - action_query_date
+  - action_query_weekday

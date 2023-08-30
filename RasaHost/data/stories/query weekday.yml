@@ -1,0 +1,4 @@
+- story: query weekday
+  steps:
+    - intent: query_weekday
+    - action: action_query_weekday
