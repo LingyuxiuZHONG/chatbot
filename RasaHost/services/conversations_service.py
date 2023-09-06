@@ -1,7 +1,7 @@
 #from rasa_core import utils
 import logging
 from logging import StreamHandler
-from RasaHost.database import *
+from RasaHost.loggingDatabase import *
 import datetime
 from flask import request, has_request_context
 import flask

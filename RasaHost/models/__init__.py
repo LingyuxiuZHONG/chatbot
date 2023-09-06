@@ -5,8 +5,10 @@ Package for the models.
 from os import path
 import json
 
+
 class Poll(object):
     """A poll object for use in the application views and repository."""
+
     def __init__(self, key=u'', text=u''):
         """Initializes the poll."""
         self.key = key
@@ -21,11 +23,14 @@ class Poll(object):
             total += choice.votes
         for choice in self.choices:
             choice.votes_percentage = choice.votes / float(total) * 100 \
-                if total > 0 else 0
+                if total > 0 else 0  # 行尾的反斜杠被称为行续符，它表示这一行代码在下一行继续。
+            # 等同于：choice.votes_percentage = choice.votes / float(total) * 100 if total > 0 else 0
         self.total_votes = total
+
 
 class Choice(object):
     """A poll choice object for use in the application views and repository."""
+
     def __init__(self, key=u'', text=u'', votes=0):
         """Initializes the poll choice."""
         self.key = key
@@ -33,10 +38,12 @@ class Choice(object):
         self.votes = votes
         self.votes_percentage = None
 
+
 class PollNotFound(Exception):
     """Exception raised when a poll/choice object couldn't be retrieved from
     the repository."""
     pass
+
 
 def _load_samples_json():
     """Loads polls from samples.json file."""

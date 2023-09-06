@@ -1,6 +1,6 @@
 import logging
 from logging import StreamHandler
-from RasaHost.database import *
+from RasaHost.loggingDatabase import *
 import datetime
 from flask import request, has_request_context
 import flask
@@ -15,6 +15,7 @@ def get_request_id():
             return flask.g.request_id
         original_request_id = flask.request.headers.get("X-Request-Id")
         request_id = original_request_id if original_request_id else str(uuid.uuid4())
+        # 如果从请求头中获取到了 "X-Request-Id"，则使用该值作为请求 ID；否则，生成一个新的 UUID 作为请求 ID。
         flask.g.request_id = request_id
         return flask.g.request_id
     else:

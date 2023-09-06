@@ -28,3 +28,4 @@ actions:
   - action_query_time
   - action_query_date
   - action_query_weekday
+  - action_openai_call

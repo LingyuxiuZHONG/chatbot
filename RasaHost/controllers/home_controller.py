@@ -35,6 +35,7 @@ def about():
         'home/about.html',
         title='About',
         year=datetime.now().year,
+        repository_name='',
     )
 
 #@app.errorhandler(PollNotFound)

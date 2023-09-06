@@ -14,7 +14,7 @@ if REPOSITORY_NAME == 'azuretablestorage':
         'STORAGE_NAME': environ.get('STORAGE_NAME', ''),
         'STORAGE_KEY': environ.get('STORAGE_KEY', ''),
         'STORAGE_TABLE_POLL': environ.get('STORAGE_TABLE_POLL', 'polls'),
-        'STORAGE_TABLE_CHOICE': environ.get('STORAGE_TABLE_CHOICE', 'choices'),
+        'STORAGE_TABLE_CHOdICE': environ.get('STORAGE_TABLE_CHOICE', 'choices'),
     }
 elif REPOSITORY_NAME == 'mongodb':
     REPOSITORY_SETTINGS = {

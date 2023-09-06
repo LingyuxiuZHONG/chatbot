@@ -12,7 +12,7 @@ import json
 from RasaHost import host
 app = host.flask
 from RasaHost.services import ConversationsService
-from RasaHost.database import *
+from RasaHost.loggingDatabase import *
 
 logger = logging.getLogger(__name__)
 

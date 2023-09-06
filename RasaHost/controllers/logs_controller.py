@@ -8,7 +8,7 @@ import json
 
 from RasaHost import host
 app = host.flask
-from RasaHost.database import *
+from RasaHost.loggingDatabase import *
 from RasaHost.services.query_parser import QueryParser
 @app.route('/logs/all')
 def logs_all():
@@ -29,13 +29,6 @@ def logs_conversations():
     return render_template(
         'logs/conversations.html',
         title='Logs - conversations',
-    )
-
-@app.route('/logs/console')
-def logs_console():
-    return render_template(
-        'logs/console.html',
-        title='Logs - console',
     )
 
 

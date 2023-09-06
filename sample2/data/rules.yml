@@ -1,0 +1,5 @@
+version: "3.0"
+rules:
+- rule: Open AI
+  steps:
+  - action: action_openai_call

@@ -9,7 +9,7 @@ import os;
 
 from RasaHost import host
 app = host.flask
-from RasaHost.services import NluService, AnalyzeService
+from RasaHost.services import NluService
 
 
 @app.route('/nlu')
@@ -77,8 +77,4 @@ def api_nlu_delete():
     path = request.args.get('path')
     NluService().delete(path)
     return jsonify({'result': 'ok'})
-
-@app.route('/api/nlu/analyze', methods=['GET'])
-def api_nlu_analyze():
-    return jsonify(AnalyzeService().analyze())
 

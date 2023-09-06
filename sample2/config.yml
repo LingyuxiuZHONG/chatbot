@@ -18,5 +18,9 @@ policies:
   - name: TEDPolicy
     max_history: 5
     epochs: 100
+  - name: RulePolicy
+    core_fallback_threshold: 0.6
+    core_fallback_action_name: "action_openai_call"
+    enable_fallback_prediction: true
 assistant_id: 20230705-095347-chilly-plasma
 

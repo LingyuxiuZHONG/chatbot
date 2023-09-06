@@ -1,4 +1,0 @@
-- story: query date
-  steps:
-    - intent: query_date
-    - action: action_query_date
