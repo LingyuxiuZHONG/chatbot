@@ -101,7 +101,9 @@
             loadData: function () {
                 this.isLoading = true;
                 this.error = '';
-                this.$fetch(`/api/logs/all?q=${encodeURIComponent(this.query)}&p=${encodeURIComponent(this.page)}`)
+                this.$fetch(`/api/logs/all?q=${encodeURIComponent(this.query)}&p=${encodeURIComponent(this.page)}`,{
+                            method:'GET'
+                })
                     .then(json => {
                         this.isLoading = false;
                         this.results = json.results.length > 0 ? json.results : null;

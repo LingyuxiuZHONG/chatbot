@@ -22,6 +22,7 @@ def nlu_list():
 @app.route('/api/nlu', methods=['GET'])
 def api_nlu_list():
     q = request.args.get('q')
+    #Flask中用于从URL查询字符串中获取特定参数值的方法。
     intents = NluService().find_all(q)
     return jsonify(intents)
 

@@ -56,7 +56,6 @@
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input v-model="selectedItem.name_editing" class="form-control form-control-console" autofocus>
-                    <a href="#" v-on:click.stop.prevent="moreItem()" class="float-right">more</a>
                 </div>
                 <div class="form-group">
                     <label for="text">Text</label>
@@ -73,10 +72,9 @@
         el: '#app',
         data: {
             error: '',
-            selectedItem: null,
+            selectedItem: null,//path,name,
             isDeleting: false,
             isSaving: false,
-            isMore: false,
             isLoading:false,
             refresh:true
         },
@@ -88,7 +86,6 @@
         },
         watch: {
             selectedItem: function (newSelectedItem, oldSelectedItem) {
-                this.isMore = false;
                 if (newSelectedItem) {
                     this.$setQueryString("path", newSelectedItem.path);
                 }
@@ -103,9 +100,9 @@
                 this.selectedItem = {
                     path: null,
                     name: null,
-                    text: "- intent: ",
+                    text: null,
                     name_editing: null,
-                    text_editing:  "version: \"3.0\"\nnlu:"\n- intent:\n  examples: | "
+                    text_editing: "version: \"3.0\"\nnlu:\n- intent:\n  examples: | "
                 }
             },
             selectItem: function (item) {
@@ -128,6 +125,7 @@
                         this.isSaving = false;
                         this.reload();
                         Object.assign(item, json.result);
+                        //将服务器返回的 JSON 数据中的 result 属性的值合并到 item 对象中
                         this.$setQueryString("path", item.path);
                         window.location.reload();
                     })
@@ -173,9 +171,6 @@
                         this.isLoading = false;
                         this.error = "Error: " + error.message;
                     });
-            },
-            moreItem: function () {
-                this.isMore = !this.isMore;
             },
             reload: function(){
                 this.refresh = false;

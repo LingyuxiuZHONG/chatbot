@@ -1,5 +1,5 @@
 """
-Package for the models.
+Package for the database.
 """
 
 from os import path

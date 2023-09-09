@@ -21,7 +21,7 @@ def chat():
 @app.route('/api/train',methods=['POST'])
 def trainModel():
     current_dir = '/Users/zhonglingyuxiu/Desktop/chatbot/chatbot/'
-    models_path = os.path.join(current_dir,'models')
+    models_path = os.path.join(current_dir,'database')
 
     config_file = os.path.join(current_dir, "config.yml")
     training_data_dir = os.path.join(current_dir, "data")

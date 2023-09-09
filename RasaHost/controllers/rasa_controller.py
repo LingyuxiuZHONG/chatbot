@@ -16,7 +16,7 @@ from RasaHost.loggingDatabase import *
 
 logger = logging.getLogger(__name__)
 
-@app.route("/conversations/<sender_id>/respond",methods = ['Post'])
+@app.route('/conversations/<sender_id>/respond',methods = ['POST'])
 def rasa_respond(sender_id):
     message = None
     try:
@@ -33,7 +33,7 @@ def rasa_respond(sender_id):
         return response
 
 
-@app.route("/actions", methods = ['GET', 'POST'])
+@app.route('/actions', methods = ['GET', 'POST'])
 def actions():
     action_call = request.json
     try:
